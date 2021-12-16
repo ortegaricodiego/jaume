@@ -1,0 +1,70 @@
+.comment {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 24px;
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+  padding-block-start: 24px;
+  padding-block-end: 24px;
+  box-shadow: -1.5px -1.5px rgba(255, 255, 255, 0.483);
+}
+
+.comment-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+  padding-block-start: 24px;
+  padding-block-end: 24px;
+}
+
+.comment-comment {
+  font: var(--headline5);
+  text-align: left;
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+  padding-block-start: 24px;
+  padding-block-end: 24px;
+}
+
+.comment-footer {
+  font: var(--caption);
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+  padding-block-start: 24px;
+  padding-block-end: 24px;
+  text-align: left;
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 768px) {
+  .comment {
+    padding-inline-start: 80px;
+    padding-inline-end: 80px;
+    padding-block-start: 80px;
+    padding-block-end: 80px;
+  }
+
+  .comment-image {
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    padding-block-start: 24px;
+    padding-block-end: 24px;
+  }
+
+  .comment-comment {
+    text-align: center;
+    padding-inline-start: 80px;
+    padding-inline-end: 80px;
+    padding-block-start: 24px;
+    padding-block-end: 24px;
+  }
+
+  .comment-footer {
+    text-align: center;
+    padding-inline-start: 80px;
+    padding-inline-end: 80px;
+    padding-block-start: 24px;
+    padding-block-end: 24px;
+  }
+}
